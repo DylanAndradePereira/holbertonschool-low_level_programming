@@ -4,7 +4,7 @@ int main(void)
 	char charType;
         int integerType;
         long int longType;
-        long long int longlongType
+        long long int longlongType;
         float floatType;
 
 
