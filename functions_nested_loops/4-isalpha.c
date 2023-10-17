@@ -8,8 +8,6 @@
  */
 int _isalpha(int c)
 {
-	        int verif;
-
 	int verif;
 
 	if (isalpha(c) == 0)
