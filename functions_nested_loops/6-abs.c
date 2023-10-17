@@ -8,13 +8,6 @@
  */
 int _abs(int c)
 {
-
-        int number;
-
-        number = c % 10;
-
         return (abs(number));
-
-
 }
 
