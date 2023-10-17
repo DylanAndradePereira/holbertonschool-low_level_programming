@@ -9,6 +9,17 @@
 int print_sign(int c)
 {
 
+	int verif;
+	if (c > 0)
+	{
+		verif = 1;
+	} else if (c == 0)
+	{
+		verif = 0;
+	} else
+	{
+		verif = -1;
+	}
 
-	return ("bhahah");
+	return (verif);
 }
