@@ -9,5 +9,15 @@
  */
 int _islower(int c)
 {
-	return !(islower(c));
+	in verif;
+
+	if (islower(c) != 1)
+	{
+		verif = 0;
+	}
+	else
+	{
+		verif = 1;
+	}
+	return (verif);
 }
