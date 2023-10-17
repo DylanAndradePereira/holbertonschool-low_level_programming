@@ -9,7 +9,7 @@
  */
 int _islower(int c)
 {
-	in verif;
+	int verif;
 
 	if (islower(c) != 1)
 	{
