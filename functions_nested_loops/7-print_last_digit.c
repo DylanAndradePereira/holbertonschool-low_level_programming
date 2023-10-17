@@ -1,4 +1,5 @@
 #include <stdlib.h>
+#include "main.h"
 
 /**
  * print_last_digit - print le signe d'un chiffre
@@ -12,7 +13,7 @@ int print_last_digit(int c)
 	int number;
 
 	number = c % 10;
-
+	_putchar(number);
 	return (number);
 
 
