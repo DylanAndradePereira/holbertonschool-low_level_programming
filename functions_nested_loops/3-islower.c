@@ -11,7 +11,7 @@ int _islower(int c)
 {
 	int verif;
 
-	if (islower(c) > 0)
+	if (islower(c) == 0)
 	{
 		verif = 0;
 	}
