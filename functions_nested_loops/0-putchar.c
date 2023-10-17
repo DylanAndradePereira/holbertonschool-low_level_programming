@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include <stdio.h>
+#include "main.h"
 /* more headers goes there */
 
 /**
@@ -8,6 +9,6 @@
  */
 int main(void)
 {
-	printf("_putchar \n");
+	puts (test ());
 	return (0);
 }
