@@ -1,12 +1,12 @@
 #include <stdlib.h>
 
 /**
- * print_last_digit - print le signe d'un chiffre
+ * _abs - print le signe d'un chiffre
  * @c: char a verifier
  *
  * Return: true si vrai bref
  */
-int print_last_digit(int c)
+int _abs(int c)
 {
 
         int number;
