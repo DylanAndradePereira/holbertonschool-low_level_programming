@@ -1,4 +1,4 @@
-#include <inttypes.h>
+#include <stdlib.h>
 
 /**
  * print_last_digit - print le signe d'un chiffre
