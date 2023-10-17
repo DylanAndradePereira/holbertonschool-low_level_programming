@@ -1,7 +1,8 @@
 #include <ctype.h>
+#include "main.h"
 
 /**
- * _islower - 
+ * _islower -
  * @c: char a verifier
  *
  * Return: true si vrai bref
