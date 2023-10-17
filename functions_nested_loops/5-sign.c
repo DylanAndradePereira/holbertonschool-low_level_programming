@@ -10,8 +10,10 @@ int print_sign(int c)
 {
 
 	int verif;
+
 	if (c > 0)
 	{
+		_putchar('+');
 		verif = 1;
 	} else if (c == 0)
 	{
