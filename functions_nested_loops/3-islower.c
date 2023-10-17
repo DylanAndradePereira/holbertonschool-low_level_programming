@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * _islower -
+ * _islower - sert a verifier si le parametre est en minuscule
  * @c: char a verifier
  *
  * Return: true si vrai bref
