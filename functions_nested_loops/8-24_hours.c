@@ -6,7 +6,7 @@
  *
  * Return: Always 0.
  */
-int main(void)
+void jack_bauer(void)
 {
 	int t;
 	int i = 0;
