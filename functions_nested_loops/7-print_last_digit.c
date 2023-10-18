@@ -10,7 +10,7 @@
 int print_last_digit(int c)
 {
 
-	int number;
+	long int number;
 
 	number = abs(c);
 	number = number % 10;
