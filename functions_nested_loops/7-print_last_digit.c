@@ -13,6 +13,10 @@ int print_last_digit(int c)
 	long int number;
 
 	number = abs(c);
+	if (a == INT_MIN)
+	{
+		a = 2147483647;
+	}
 	number = number % 10;
 	_putchar('0' + number);
 	return (number);
