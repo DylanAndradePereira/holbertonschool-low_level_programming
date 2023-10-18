@@ -16,7 +16,7 @@ int print_last_digit(int c)
 	number = abs(c);
 	if (number == INT_MIN)
 	{
-		number = 2147483647;
+		number = 2147483648;
 	}
 	number = number % 10;
 	_putchar('0' + number);
