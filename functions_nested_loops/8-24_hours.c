@@ -19,9 +19,7 @@ void jack_bauer(void)
 		{
 			/* 24 fois */
 
-			_putchar("%02d",i);
-			_putchar(":");
-			_putchar("%02d", t);
+			printf("%02d : %02d",i ,t);
 
 			if (t == 59)
 			{
