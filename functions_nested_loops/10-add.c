@@ -6,7 +6,7 @@
  *
  * @un : param 1
  * @deux : param 2
- * 
+ *
  * Return: l'addition des deux chiffre en parametre.
  */
 int add(int un, int deux)
@@ -15,5 +15,3 @@ int add(int un, int deux)
 	return (un + deux);
 
 }
-
-
