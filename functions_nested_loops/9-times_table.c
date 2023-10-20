@@ -27,10 +27,6 @@ void times_table(void)
 
 
 				putchar(' ');
-				if (r<10)
-				{
-					putchar(' ');
-				}
 			}
 
 		}
