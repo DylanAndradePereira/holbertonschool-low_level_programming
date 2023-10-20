@@ -8,7 +8,6 @@
  */
 void print_to_98(int un)
 {
-	int un = 24;
 
  	if (un <= 98)
 	{
