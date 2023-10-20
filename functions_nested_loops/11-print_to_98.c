@@ -8,14 +8,15 @@
  */
 void print_to_98(int un)
 {
+	int un = 24;
 
-	if (un >= 98)
-	{	
+ 	if (un <= 98)
+	{
 		int i;
 
 		for ( i = un; i < 98; i++)
 		{
-			printf("%d", i);
+			printf("%d,", i);
 		}
 	} else
 	{
@@ -23,8 +24,7 @@ void print_to_98(int un)
 
 		for (i = un; i > 98; i--)
 		{
-			printf("%d", i);
+			printf("%d, ", i);
 		}
 	}
-
 }
