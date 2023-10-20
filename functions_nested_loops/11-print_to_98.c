@@ -9,11 +9,14 @@
 void print_to_98(int un)
 {
 
- 	if (un <= 98)
+	if (un == 98)
+	{
+		printf("%d", un);
+	} else if (un <= 98)
 	{
 		int i;
 
-		for ( i = un; i < 98; i++)
+		for ( i = un; i <= 98; i++)
 		{
 			printf("%d, ", i);
 		}
@@ -21,7 +24,7 @@ void print_to_98(int un)
 	{
 		int i;
 
-		for (i = un; i > 98; i--)
+		for (i = un; i >= 98; i--)
 		{
 			printf("%d, ", i);
 		}
