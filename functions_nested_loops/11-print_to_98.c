@@ -9,11 +9,19 @@
 void print_to_98(int un)
 {
 
-	int i;
-	for ( i = un; i < 98; i++)
+	if (un >= 98)
+	{	
+		int i;
+		for ( i = un; i < 98; i++)
+		{
+			printf("%d", i);
+		}
+	} else
 	{
-		printf("%d", i);
+		for (i = un; i > 98; i--)
+		{
+			printf("%d", i);
+		}
 	}
-	
 
 }
