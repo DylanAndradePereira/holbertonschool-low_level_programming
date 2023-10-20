@@ -12,12 +12,15 @@ void print_to_98(int un)
 	if (un >= 98)
 	{	
 		int i;
+
 		for ( i = un; i < 98; i++)
 		{
 			printf("%d", i);
 		}
 	} else
 	{
+		int i;
+
 		for (i = un; i > 98; i--)
 		{
 			printf("%d", i);
