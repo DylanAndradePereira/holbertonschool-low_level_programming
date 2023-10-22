@@ -1,35 +1,35 @@
-#include <limits.h>
-#include <stdio.h>
-#include <stdlib.h>
+#include "main.h"
+
 /**
- * times_table - check the code for Holberton School students.
- *
+ * times_table - Affiche les tables de 0 a 9
  */
 void times_table(void)
 {
-	int t;
-	int f;
+	int row, col;
 
-		for (f = 0; f < 10; f++)
+	for (row = 0; row < 10; row++)
+	{
+		for (col  = 0; col < 10; col++)
 		{
-			t = 0;
-			putchar('\n');
-
-			for (t = 0; t < 10; t++)
+			if (col	== 0)
 			{
-				int r = f * t;
-
-				printf("%d", r);
-
-				if (t != 9)
-				{
-					/* code */
-					putchar(',');
-				}
-
-
-				putchar(' ');
+				_putchar('0');
 			}
-
+			else if (row * col < 10)
+			{
+				_putchar(',');
+				_putchar(' ');
+				_putchar(' ');
+				_putchar(row * col + '0');
+			}
+			else
+			{
+				_putchar(',');
+				_putchar(' ');
+				_putchar((row * col) / 10 + '0');
+				_putchar((row * col) % 10 + '0');
+			}
 		}
+		_putchar('\n');
+	}
 }
