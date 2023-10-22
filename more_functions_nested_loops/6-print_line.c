@@ -2,7 +2,7 @@
 
 /**
  * print_line - ca dessine hein
- * @n: nombre de fois 
+ * @n: nombre de fois
  *
  * Return: void
  */
