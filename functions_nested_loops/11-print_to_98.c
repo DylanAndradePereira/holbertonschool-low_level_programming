@@ -1,32 +1,23 @@
-#include <limits.h>
 #include <stdio.h>
-#include <stdlib.h>
+
 /**
- * print_to_98 - check the code for Holberton School students.
- *
- * @un : param 1
+ * print_to_98 - Prints all natural numbers from input to 98,
+ *               in order separated by a comma followed by a space.
+ * @n: The number to begin counting at.
  */
-void print_to_98(int un)
+void print_to_98(int n)
 {
-
-	if (un == 98)
+	if (n >= 98)
 	{
-		printf("%d", un);
-	} else if (un <= 98)
-	{
-		int i;
+		while (n > 98)
+			printf("%d, ", n--);
+		printf("%d\n", n);
+	}
 
-		for ( i = un; i <= 98; i++)
-		{
-			printf("%d, ", i);
-		}
-	} else
+	else
 	{
-		int i;
-
-		for (i = un; i >= 98; i--)
-		{
-			printf("%d, ", i);
-		}
+		while (n < 98)
+			printf("%d, ", n++);
+		printf("%d\n", n);
 	}
 }
