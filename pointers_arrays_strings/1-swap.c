@@ -9,8 +9,11 @@
  * Return: void
  */
 
-void reset_to_98(int *adresse)
+void swap_int(int *adresse1, int *adresse2)
 {
 
-	*adresse = 98;
+	int temporaire;
+	temporaire = *adresse1;
+	*adresse1 = *adresse2;
+	*adresse2 = temporaire;
 }
