@@ -1,0 +1,22 @@
+#include "main.h"
+#include <stdio.h>
+#include <string.h>
+
+/**
+ * puts2 - entry point
+ * Description: tu connais flemme un peu
+ * @str: poiteurde la chaine a compter
+ * Return: void
+ */
+
+void puts2(char *str)
+{
+	unsigned int i;
+
+	for (i = strlen(str)/2; i < strlen(str); i++)
+	{
+		_putchar(str[i]);
+	}
+
+	putchar('\n');
+}
