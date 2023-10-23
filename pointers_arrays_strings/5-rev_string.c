@@ -21,7 +21,7 @@ void rev_string(char *str)
 
 	int i;
 
-	char temporaire[500];
+	char temporaire[2000];
 
 	while (str[c])
 	{
@@ -34,7 +34,7 @@ void rev_string(char *str)
 		a++;
 	}
 
-	for (i = 0; i < 10; i++)
+	for (i = 0; i < str_len(str); i++)
 	{
 		str[i] = temporaire[i];
 	}
