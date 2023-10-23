@@ -3,29 +3,24 @@
 #include <string.h>
 
 /**
- * print_rev - entry point
- *
+ * rev_string - entry point
  * Description: tu connais flemme un peu
- *@str: poiteur de la chaine a compter
- * Return: la longueur de la chaine
+ * @str: poiteurde la chaine a compter
+ * Return: void
  */
 
 void rev_string(char *str)
 {
 
 	int c = 0;
-
 	int n = 0;
-
 	int a = 0;
-
 	unsigned int i;
-
 	char temporaire[2000];
 
 	while (str[c])
 	{
-		 ++c;
+		++c;
 	}
 
 	for (n = c - 1; n >= 0; n--)
@@ -38,5 +33,4 @@ void rev_string(char *str)
 	{
 		str[i] = temporaire[i];
 	}
-
 }
