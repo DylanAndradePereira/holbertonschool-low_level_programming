@@ -21,10 +21,9 @@ void print_rev(char *str)
 		++c;
 	}
 
-	for (n = c;n >= 0; n--)
+	for (n = c;n >= 1; n--)
 	{
 		_putchar(str[n]);
-		_putchar('-');
 	}
 
 	_putchar('\n');
