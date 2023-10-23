@@ -9,12 +9,17 @@
  * Return: la longueur de la chaine
  */
 
-int print_rev(char *str)
+void print_rev(char *str)
 {
+
+	int c = 0;
+
+	while (str[c])
+		++n;
 
 	int n = 0;
 
-	for (n = _strlen(*str);n >= 0; n--)
+	for (n = c;n >= 0; n--)
 	{
 		_putchar(str[n]);
 	}
