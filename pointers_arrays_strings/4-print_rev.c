@@ -15,7 +15,7 @@ void print_rev(char *str)
 	int c = 0;
 
 	while (str[c])
-		++n;
+		++c;
 
 	int n = 0;
 
@@ -23,6 +23,4 @@ void print_rev(char *str)
 	{
 		_putchar(str[n]);
 	}
-
-	return (n);
 }
