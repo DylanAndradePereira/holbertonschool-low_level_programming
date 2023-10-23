@@ -19,15 +19,26 @@ void rev_string(char *str)
 
 	int a = 0;
 
+	int i;
+
+	char *temporaire[10];
+
 	while (str[c])
 	{
-		++c;
+		 ++c;
 	}
-	
+
 	for (n = c - 1; n >= 0; n--)
 	{
-		str[a] = str[n];
+		temporaire[a] = str[n];
 		a++;
 	}
+
+	for (i = 0; i < 10; i++)
+	{
+		str[i] = temporaire[i];
+	}
+
+	printf("%s\n", str);
 
 }
