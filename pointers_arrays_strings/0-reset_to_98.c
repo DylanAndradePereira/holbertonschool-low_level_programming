@@ -5,7 +5,7 @@
  * reset_to_98 - entry point
  *
  * Description: Prints diagonals
- *@*adresse: size of the triangle
+ *@adresse: size of the triangle
  * Return: void
  */
 
