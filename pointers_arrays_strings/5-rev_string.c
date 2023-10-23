@@ -39,6 +39,4 @@ void rev_string(char *str)
 		str[i] = temporaire[i];
 	}
 
-	printf("%s\n", str);
-
 }
