@@ -19,7 +19,7 @@ void rev_string(char *str)
 
 	int a = 0;
 
-	int i;
+	unsigned int i;
 
 	char temporaire[2000];
 
