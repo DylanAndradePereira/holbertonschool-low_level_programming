@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * print_triangle - entry point
@@ -13,6 +14,6 @@ void reset_to_98(int *adresse)
 
 	*adresse = 98;
 	
-	printf("%d",adresse);
+	printf("%d", *adresse);
 
 }
