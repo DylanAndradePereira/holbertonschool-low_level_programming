@@ -17,7 +17,7 @@ void rev_string(char *str)
 
 	int n = 0;
 
-	char str;
+	char string;
 
 	while (str[c])
 	{
@@ -26,7 +26,7 @@ void rev_string(char *str)
 	
 	for (n = c - 1; n >= 0; n--)
 	{
-		strncat(str,str[n],1);
+		strncat(string,str[n],1);
 	}
 
 	_putchar('\n');
