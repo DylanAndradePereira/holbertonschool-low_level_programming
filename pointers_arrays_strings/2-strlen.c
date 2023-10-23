@@ -4,10 +4,9 @@
 /**
  * _strlen - entry point
  *
- * Description: Prints diagonals
- *@adresse1: size of the triangle
- *@adresse2: dhufdhnu
- * Return: void
+ * Description: tu connais flemme un peu
+ *@adresse1: poiteur de la chaine a compter
+ * Return: la longueur de la chaine
  */
 
 int _strlen(char *str)
