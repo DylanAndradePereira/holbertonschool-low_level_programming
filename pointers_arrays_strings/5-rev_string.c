@@ -34,7 +34,7 @@ void rev_string(char *str)
 		a++;
 	}
 
-	for (i = 0; i < str_len(str); i++)
+	for (i = 0; i < strlen(str); i++)
 	{
 		str[i] = temporaire[i];
 	}
