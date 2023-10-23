@@ -15,7 +15,7 @@ void swap_int(char str)
 
 	int n = 0;
 
-	while ( s[n] ) ++n;
+	while ( str[n] ) ++n;
 
 	return (n)
 }
