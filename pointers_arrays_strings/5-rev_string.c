@@ -29,5 +29,4 @@ void rev_string(char *str)
 		s[n] += str[n];
 	}
 
-	printf("%s",s);
 }
