@@ -13,6 +13,6 @@ void reset_to_98(int adresse)
 
 	*pointer = adresse;
 	
-	return (*pointer);
+	printf("%d",pointer);
 
 }
