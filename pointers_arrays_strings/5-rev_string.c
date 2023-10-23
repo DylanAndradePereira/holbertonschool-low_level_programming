@@ -16,15 +16,18 @@ void rev_string(char *str)
 
 	int n = 0;
 
+	int a = 0;
+
 	while (str[c])
 	{
 		++c;
 	}
-
+	
 	for (n = c - 1; n >= 0; n--)
 	{
 		_putchar(str[n]);
-		_putchar(str[(n-n)*2]);
+		_putchar(str[a]);
+		a++;
 	}
 
 	_putchar('\n');
