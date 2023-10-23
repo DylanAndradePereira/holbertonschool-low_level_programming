@@ -5,7 +5,7 @@
  * _strlen - entry point
  *
  * Description: tu connais flemme un peu
- *@adresse1: poiteur de la chaine a compter
+ *@str: poiteur de la chaine a compter
  * Return: la longueur de la chaine
  */
 
