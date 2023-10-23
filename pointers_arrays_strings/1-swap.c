@@ -2,10 +2,11 @@
 #include <stdio.h>
 
 /**
- * reset_to_98 - entry point
+ * swap_int - entry point
  *
  * Description: Prints diagonals
- *@adresse: size of the triangle
+ *@adresse1: size of the triangle
+ *@adresse2: dhufdhnu
  * Return: void
  */
 
@@ -13,6 +14,7 @@ void swap_int(int *adresse1, int *adresse2)
 {
 
 	int temporaire;
+
 	temporaire = *adresse1;
 	*adresse1 = *adresse2;
 	*adresse2 = temporaire;
