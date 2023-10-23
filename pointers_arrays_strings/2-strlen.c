@@ -10,7 +10,7 @@
  * Return: void
  */
 
-void swap_int(char str)
+int _strlen(char str)
 {
 
 	int n = 0;
