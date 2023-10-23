@@ -29,5 +29,5 @@ void rev_string(char *str)
 		s += str[n];
 	}
 
-	*str = s;
+	printf("%s",s);
 }
