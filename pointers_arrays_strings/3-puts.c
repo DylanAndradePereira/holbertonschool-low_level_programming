@@ -2,11 +2,11 @@
 #include <stdio.h>
 
 /**
- * _strlen - entry point
+ * _puts - entry point
  *
  * Description: tu connais flemme un peu
  *@str: poiteur de la chaine a compter
- * Return: la longueur de la chaine
+ * Return: void
  */
 
 void _puts(char *str)
