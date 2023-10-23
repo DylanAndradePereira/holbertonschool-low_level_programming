@@ -15,7 +15,7 @@ int _strlen(char *str)
 
 	int n = 0;
 
-	while ( *str[n] ) ++n;
+	while ( str[n] ) ++n;
 
 	return (n);
 }
