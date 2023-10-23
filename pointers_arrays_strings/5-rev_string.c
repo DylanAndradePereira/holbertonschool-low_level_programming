@@ -17,7 +17,7 @@ void rev_string(char *str)
 
 	int n = 0;
 
-	int a = 0*;
+	int a = 0;
 
 	while (str[c])
 	{
