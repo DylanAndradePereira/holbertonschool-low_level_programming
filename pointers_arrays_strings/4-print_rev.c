@@ -15,7 +15,9 @@ void print_rev(char *str)
 	int c = 0;
 
 	while (str[c])
+	{
 		++c;
+	}
 
 	int n = 0;
 
