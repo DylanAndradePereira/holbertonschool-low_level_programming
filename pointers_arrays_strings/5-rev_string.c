@@ -21,12 +21,12 @@ void rev_string(char *str)
 
 	int i;
 
-	char temporaire[10];
-
 	while (str[c])
 	{
 		 ++c;
 	}
+
+	char temporaire[c];
 
 	for (n = c - 1; n >= 0; n--)
 	{
