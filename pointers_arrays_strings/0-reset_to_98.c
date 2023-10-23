@@ -8,11 +8,11 @@
  * Return: void
  */
 
-void reset_to_98(int adresse)
+void reset_to_98(int *adresse)
 {
 
-	*pointer = adresse;
+	*adresse = 98;
 	
-	printf("%d",pointer);
+	printf("%d",adresse);
 
 }
