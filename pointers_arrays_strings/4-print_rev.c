@@ -21,7 +21,7 @@ void print_rev(char *str)
 		++c;
 	}
 
-	for (n = c-1;n >= 0; n--)
+	for (n = c - 1; n >= 0; n--)
 	{
 		_putchar(str[n]);
 	}
