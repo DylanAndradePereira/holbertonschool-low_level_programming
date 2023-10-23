@@ -21,7 +21,7 @@ void rev_string(char *str)
 
 	int i;
 
-	char temporaire[str];
+	char temporaire[strlen(str)];
 
 	while (str[c])
 	{
