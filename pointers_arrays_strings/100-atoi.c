@@ -23,13 +23,14 @@ int _atoi(char *str)
 		{
 			if (symbole != ' ')
 				symbole = str[i - 1];
+
 			result = result*10 + str[i] - '0';
-			_putchar(symbole);
 		}
 
 	}
 	
 	if (symbole == '-')
 		return (result);
+
 	return (result);
 }
