@@ -20,7 +20,8 @@ int _atoi(char *str)
 		if (str[i] >= '0' && str[i] <= '9')
 		{
 			result = result*10 + str[i] - '0';;
-
+			_putchar('\n');
+			_putchar(str[i]);
 		}
 
 	}
