@@ -11,7 +11,7 @@
 
 int _atoi(char *str)
 {
-	unsigned long long int ii;
+	unsigned int i;
 
 	for (i = 0;i < strlen(str);i++)
 	{
