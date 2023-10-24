@@ -3,16 +3,16 @@
 #include <string.h>
 
 /**
- * print_array - entry point
+ * *_strcpy - entry point
  * Description: tu connais flemme un peu
- * @ui: poiteurde la chaine a compteri
- * @array: strafoulah
- * Return: void
+ * @dest: poiteurde la chaine a compteri
+ * @src: strafoulah
+ * Return: dest
  */
 
 char *_strcpy(char *dest, char *src)
 {
-	long unsigned int i;
+	unsigned long int i;
 
 
 		for (i = 0; i < strlen(src); i++)
@@ -20,7 +20,7 @@ char *_strcpy(char *dest, char *src)
 			dest[i] = src[i];
 
 		}
-	
+
 		if (strlen(src) < strlen(dest))
 			dest[1] = '\0';
 
