@@ -23,7 +23,7 @@ char *_strcpy(char *dest, char *src)
 		}
 	}
 	else
-	}
+	{
 		for (i = 0; i < 1; i++)
 		{
 			dest[i] = src[i];
