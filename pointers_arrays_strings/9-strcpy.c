@@ -16,23 +16,14 @@ char *_strcpy(char *dest, char *src)
 
 	long unsigned int len = strlen(src);
 
-	if (len < strlen(dest))
-	{
 		for (i = 0; i < strlen(src); i++)
 		{
 			dest[i] = src[i];
 
 		}
-	}
-	else
-	{
-		for (i = 0; i < 1; i++)
-		{
-			dest[i] = src[i];
-
-		}
-
-	}
+	
+		if (strlen(src) > strlen(dest))
+			putchar('f');
 
 
 	return (dest);
