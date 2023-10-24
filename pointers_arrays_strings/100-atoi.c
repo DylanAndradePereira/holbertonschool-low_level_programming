@@ -28,6 +28,8 @@ int _atoi(char *str)
 		}
 
 	}
-
+	
+	if (symbole == '-')
+		return (result);
 	return (result);
 }
