@@ -17,7 +17,7 @@ int _atoi(char *str)
 
 	for (i = 0;i < strlen(str);i++)
 	{
-		if (str[i] >= 48 && str[i] <= 58)
+		if (str[i] >= '0' && str[i] <= '9')
 		{
 			result = result*10 + str[i] - '0';;
 
