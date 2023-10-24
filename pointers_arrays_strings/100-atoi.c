@@ -19,9 +19,8 @@ int _atoi(char *str)
 	{
 		if (str[i] >= 48 && str[i] <= 58)
 		{
-			result += str[i];
+			result = result*10 + str[i] - '0';;
 
-			
 		}
 
 	}
