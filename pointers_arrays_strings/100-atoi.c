@@ -11,7 +11,8 @@
 
 int _atoi(char *str)
 {
-	int i;
+	unsigned long int i;
+
 	for (i = 0;i < strlen(str);i++)
 	{
 		if (str[i] >= 48 && str[i] <= 58)
