@@ -21,4 +21,6 @@ int _atoi(char *str)
 		}
 
 	}
+
+	return (0);
 }
