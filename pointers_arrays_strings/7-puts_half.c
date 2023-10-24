@@ -13,9 +13,18 @@ void puts_half(char *str)
 {
 	unsigned int i;
 
-	for (i = strlen(str)/2; i < strlen(str) && i % 2 == 0; i++)
+	if (strlen(str) % 2 == 0)
 	{
-		_putchar(str[i]);
+		for (i = strlen(str) / 2; i < strlen(str); i++)
+		{
+			putchar(str[i]);
+		}
+	} else
+	{
+		for (i = strlen(str) / 2 + 1; i < strlen(str); i++)
+		{
+			putchar(str[i]);
+		}
 	}
 
 	putchar('\n');
