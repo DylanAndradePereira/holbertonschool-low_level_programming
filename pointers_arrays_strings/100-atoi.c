@@ -21,10 +21,10 @@ int _atoi(char *str)
 	{
 		if (str[i] >= '0' && str[i] <= '9')
 		{
-			if (symbole != '')
+			if (symbole != ' ')
 				symbole = str[i - 1];
 			result = result*10 + str[i] - '0';
-			_putchar(symbole)
+			_putchar(symbole);
 		}
 
 	}
