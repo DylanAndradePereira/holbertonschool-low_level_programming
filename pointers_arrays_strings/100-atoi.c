@@ -9,8 +9,8 @@
  * Return: mixed value llolololol
  */
 
-char _atoi(char *string)
+int _atoi(char *str)
 {
 
-	return (int(string));
+	return (int(str));
 }
