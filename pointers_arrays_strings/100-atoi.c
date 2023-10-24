@@ -17,7 +17,7 @@ int _atoi(char *str)
 	{
 		if (str[i] >= 48 && str[i] <= 58)
 		{
-			putchar(str[i];
+			putchar(str[i]);
 		}
 
 	}
