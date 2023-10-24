@@ -18,11 +18,11 @@ void print_array(int *array, int ui)
 	{
 		if (i == 4)
 		{
-			printf("%d", *array[i]);
+			printf("%d", array[i]);
 		}
 		else
 		{
-			printf("%d, ", *array[i]);
+			printf("%d, ", array[i]);
 		}
 
 	}
