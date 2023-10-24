@@ -14,12 +14,24 @@ char *_strcpy(char *dest, char *src)
 {
 	long unsigned int i;
 
-
-	for (i = 0; i < strlen(src); i++)
+	if (strlen(str) > strlen(dest))
 	{
-		dest[i] = src[i];
+		for (i = 0; i < strlen(src); i++)
+		{
+			dest[i] = src[i];
+
+		}
+	}
+	else
+	}
+		for (i = 0; i < 1; i++)
+		{
+			dest[i] = src[i];
+
+		}
 
 	}
+
 
 	return (dest);
 }
