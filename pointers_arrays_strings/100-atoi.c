@@ -15,14 +15,19 @@ int _atoi(char *str)
 
 	unsigned result = 0;
 
+	int symbol;
+
 	for (i = 0;i < strlen(str);i++)
 	{
 		if (str[i] >= '0' && str[i] <= '9')
 		{
-			result = result*10 + str[i] - '0';;
+			if (symbole != '')
+				symbole = str[i - 1];
+			result = result*10 + str[i] - '0';
+			_putchar(symbole)
 		}
 
 	}
 
-	return (-result);
+	return (result);
 }
