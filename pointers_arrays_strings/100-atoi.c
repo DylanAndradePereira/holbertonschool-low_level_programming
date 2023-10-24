@@ -13,14 +13,18 @@ int _atoi(char *str)
 {
 	unsigned int i;
 
+	unsigned result;
+
 	for (i = 0;i < strlen(str);i++)
 	{
 		if (str[i] >= 48 && str[i] <= 58)
 		{
-			putchar(str[i]);
+			result += str[i];
+
+			
 		}
 
 	}
 
-	return (0);
+	return (result);
 }
