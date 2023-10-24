@@ -11,6 +11,13 @@
 
 int _atoi(char *str)
 {
+	int i;
+	for (i = 0;i < strlen(str);i++)
+	{
+		if (str[i] >= 48 && str[i] <= 58)
+		{
+			putchar(str[i];
+		}
 
-	return (int(str));
+	}
 }
