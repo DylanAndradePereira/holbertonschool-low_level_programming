@@ -14,7 +14,7 @@ char *_strcpy(char *dest, char *src)
 {
 	long unsigned int i;
 
-	int len = strlen(src);
+	long unsigned int len = strlen(src);
 
 	if (len > strlen(dest))
 	{
