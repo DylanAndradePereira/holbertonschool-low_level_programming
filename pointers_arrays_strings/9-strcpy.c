@@ -21,7 +21,7 @@ char *_strcpy(char *dest, char *src)
 
 		}
 	
-		if (strlen(src) > strlen(dest))
+		if (strlen(src) < strlen(dest))
 			putchar('f');
 
 
