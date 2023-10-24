@@ -15,7 +15,7 @@ int _atoi(char *str)
 
 	unsigned result = 0;
 
-	int symbole;
+	int symbole = '0';
 
 	for (i = 0;i < strlen(str);i++)
 	{
@@ -30,7 +30,7 @@ int _atoi(char *str)
 	}
 	
 	if (symbole == '-')
-		return (result);
+		return (symbole + result);
 
 	return (result);
 }
