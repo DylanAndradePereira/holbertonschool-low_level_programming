@@ -26,4 +26,6 @@ void print_array(int *array, int ui)
 		}
 
 	}
+
+	putchar('\n');
 }
