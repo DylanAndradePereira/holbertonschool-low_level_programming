@@ -16,7 +16,7 @@ void print_array(int *array, int ui)
 
 	for (i = 0; i < ui; i++)
 	{
-		if (i == 4)
+		if (i == ui)
 		{
 			printf("%d", array[i]);
 		}
