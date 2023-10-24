@@ -22,7 +22,7 @@ char *_strcpy(char *dest, char *src)
 		}
 	
 		if (strlen(src) < strlen(dest))
-			putchar('f');
+			dest[1] = '\0';
 
 
 	return (dest);
