@@ -13,7 +13,7 @@ int _atoi(char *str)
 {
 	unsigned int i;
 
-	unsigned result;
+	unsigned result = 0;
 
 	for (i = 0;i < strlen(str);i++)
 	{
