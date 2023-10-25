@@ -22,7 +22,7 @@ int _atoi(char *str)
 		if (str[i] >= '0' && str[i] <= '9')
 		{
 		
-			if ((symbole != ' ' && str[i - 1] == '-') || (symbole != ' ' && str[i -1] == ' '))
+			if ((symbole != ' ' && str[i - 1] == '-') || (symbole != ' ' && str[i -1] == ' ') && str[i - 1])
         		{
                 		symbole = '-';
         		}
