@@ -15,7 +15,7 @@ int _atoi(char *str)
 
 	unsigned result = 0;
 
-	int symbol;
+	int symbole;
 
 	for (i = 0;i < strlen(str);i++)
 	{
