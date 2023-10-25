@@ -15,7 +15,7 @@ int _atoi(char *str)
 
 	unsigned result = 0;
 
-	bool verif;
+	int symbol;
 
 	for (i = 0;i < strlen(str);i++)
 	{
