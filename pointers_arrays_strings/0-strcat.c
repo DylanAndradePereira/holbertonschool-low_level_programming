@@ -8,29 +8,16 @@
  * @s2: string 2
  * Return: NULL si ca échoue
  */
-char *_strcat(char *s1, char *s2)
+char *_strcat(char *dest, char *src)
 {
-	char *s;
-	int a, b, c, d;
+	
+	int index = 0, dest_len = 0;
 
-	if (s1 == 0)
-		s1 = "";
-	if (s2 == 0)
-		s2 = "";
-	for (a = 0; s1[a] != '\0'; a++)
-		;
-	for (b = 0; s2[b] != '\0'; b++)
-		;
-	b++;
-	s = malloc(a * sizeof(*s1) + b * sizeof(*s2));
-	if (s == 0)
-		return (NULL);
-	for (c = 0, d = 0; c < a + b; c++)
-	{
-		if (c < a)
-			s[c] = s1[c];
-		else
-			s[c] = s2[d++];
-	}
-	return (s);
+	while (dest[index++])
+		dest_len++;
+
+	for (index = 0; src[index]; index++)
+		dest[dest_len++] = src[index];
+
+	return (dest);
 }
