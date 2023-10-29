@@ -3,12 +3,12 @@
 #include <stdlib.h>
 
 /**
- * str_concat - concatenate strings
+ * str_cat - concatenate strings
  * @s1: string 1
  * @s2: string 2
- * Return: NULL if failure
+ * Return: NULL si ca échoue
  */
-char *str_concat(char *s1, char *s2)
+char *str_cat(char *s1, char *s2)
 {
 	char *s;
 	int a, b, c, d;
