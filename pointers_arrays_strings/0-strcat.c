@@ -8,7 +8,7 @@
  * @s2: string 2
  * Return: NULL si ca échoue
  */
-char *str_cat(char *s1, char *s2)
+char *_strcat(char *s1, char *s2)
 {
 	char *s;
 	int a, b, c, d;
