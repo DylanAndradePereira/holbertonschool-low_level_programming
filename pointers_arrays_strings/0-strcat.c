@@ -3,14 +3,14 @@
 #include <stdlib.h>
 
 /**
- * _str_cat - concatenate strings
+ * _strcat - concatenate strings
  * @dest: string 1
  * @src: string 2
  * Return: NULL si ca échoue
  */
 char *_strcat(char *dest, char *src)
 {
-	
+
 	int index = 0, dest_len = 0;
 
 	while (dest[index++])
