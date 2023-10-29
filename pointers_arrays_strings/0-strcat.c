@@ -4,8 +4,8 @@
 
 /**
  * str_cat - concatenate strings
- * @s1: string 1
- * @s2: string 2
+ * @dest: string 1
+ * @src: string 2
  * Return: NULL si ca échoue
  */
 char *_strcat(char *dest, char *src)
