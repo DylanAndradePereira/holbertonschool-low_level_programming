@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /**
- * str_cat - concatenate strings
+ * _str_cat - concatenate strings
  * @dest: string 1
  * @src: string 2
  * Return: NULL si ca échoue
